@@ -9,6 +9,6 @@ Implemented:
 
 3. bubble sort
 
-4. Arguement on selection sort correctness.
+4. Argument on selection sort correctness.
 
 3. Benchmarked the runtime of each algorithm. included information about computer (ram, cpu etc.) and run with various input sizes; from small (array of size 5,10,20) all the way up to large arrays (where your computer is struggling).  ploted a graph of time vs input size n. 
