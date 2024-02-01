@@ -19,6 +19,7 @@ function x = f(n)
    for i = 1:n
         for j = 1:n
              x = x + 1;
+
 Find the runtime of the algorithm mathematically (I should see summations).
 
 Time this function for various n e.g. n = 1,2,3.... You should have small values of n all the way up to large values. Plot "time" vs "n" (time on y-axis and n on x-axis). Also, fit a curve to your data, hint it's a polynomial. 
