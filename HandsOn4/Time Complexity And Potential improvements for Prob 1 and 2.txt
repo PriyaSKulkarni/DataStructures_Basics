@@ -1,0 +1,26 @@
+Time Complexity Analysis:
+
+Problem 1:
+Let's denote K as the number of arrays and N as the size of each array.
+In the worst case, we need to iterate through all the elements in each array, which leads to O(K * N) comparisons.
+The time complexity is O(K * N).
+
+
+
+Problem 2:
+In this problem, we traverse through the array once.
+We maintain a write index which moves only when we encounter a new element.
+Thus, the time complexity is O(N).
+
+Potential Improvements:
+
+Problem 1:
+
+The current implementation can be optimized by using a priority queue (min-heap) instead of repeatedly finding the minimum element among the heads of the arrays.
+This would reduce the time complexity to O(N log K) by eliminating the need for scanning through all elements in each iteration.
+
+Problem 2:
+
+Since the input array is sorted, we can avoid checking for duplicates once we find a new element.
+This would further optimize the algorithm to perform in O(N) time complexity without requiring additional space.
+By making these improvements, we can enhance the efficiency of both algorithms.
