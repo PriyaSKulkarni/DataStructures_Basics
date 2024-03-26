@@ -1,11 +1,11 @@
-Implement a hash table and upload your code to github:
+I have implemented a hash table according to the given specifications and uploaded the code to GitHub.
 
-Use the multiplication AND division method for your hash function
-Note your code should be generic enough to allow for ANY hash function
-For simplicity assume your keys are integers and the values (data) are integers
-Use collision resolution by chaining
-Use a doubly linked list and you must write your own (so for example you can't use "list" in C++)
-You are only allowed to use C-style array's for this implementation (so for example no C++ vectors)
-Your Hash table should grow and shrink
-When it's full double the array size and re-hash everything
-When it's becoming empty e.g. 1/4 empty, then half the size of the array and re-hash everything
+The hash table utilizes both the multiplication and division methods for the hash function. It is designed to handle keys and values of integer types, with collision resolution implemented using chaining through a doubly linked list.
+
+To ensure versatility, the code allows for any hash function to be used. It strictly employs C-style arrays and does not rely on C++ vectors.
+
+The hash table dynamically adjusts its size: when it becomes full, the array size is doubled and all elements are re-hashed. Conversely, if it becomes too empty (e.g., 1/4 empty), the array size is halved and all elements are re-hashed accordingly.
+
+For simplicity, the implementation assumes integer keys and values. Custom doubly linked list functionalities have been coded rather than relying on standard libraries like "list" in C++.
+
+The code is available on GitHub with the necessary documentation and explanations.
