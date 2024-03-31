@@ -1,1 +1,7 @@
-H
+Basic Binary Search Tree: This was a simple implementation that allowed for unbalanced trees. It included operations such as insertion and searching for integer values.
+
+Red-Black Tree: This implementation involved balancing the tree to ensure logarithmic height. It included operations like insertion, deletion, and searching for integer values.
+
+AVL Tree: Similar to the Red-Black Tree, this implementation aimed at maintaining balanced trees by performing rotations as necessary. It supported operations such as insertion, deletion, and searching for integer values.
+
+Tests were conducted to validate the correctness of these implementations, ensuring they functioned as expected with various input scenarios.
