@@ -1,1 +1,8 @@
+1. Topological Sort:
+Topological sorting is mainly used for scheduling jobs from the given dependencies among jobs. The algorithm finds a linear ordering of vertices in a directed acyclic graph (DAG) such that for every directed edge uv from vertex u to vertex v, vertex u comes before v in the ordering. This implementation takes a graph represented as an adjacency list and returns a list representing the topological ordering.
 
+2. Depth-First Search (DFS):
+DFS is a graph traversal algorithm used to explore nodes and edges of a graph. It starts at a source node and explores as far as possible along each branch before backtracking. This implementation takes a graph represented as an adjacency list and a starting node, and prints the nodes visited in DFS order.
+
+3. Kruskal's Algorithm:
+Kruskal's algorithm is used to find the minimum spanning tree (MST) of a connected, undirected graph. It builds the MST by adding edges one by one in increasing order of their weights until all the vertices are included in the MST. This implementation takes a list of edges with their weights and returns a list representing the edges of the MST.
