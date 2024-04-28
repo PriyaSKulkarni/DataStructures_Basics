@@ -1,1 +1,7 @@
+Implementations of three classic graph algorithms in Python:
 
+Dijkstra's Algorithm - for finding the shortest paths from a single source vertex to all other vertices in a graph with non-negative edge weights.
+
+Bellman-Ford Algorithm - for computing shortest paths from a single source vertex to all other vertices in a weighted graph, capable of handling graphs with negative weight edges.
+
+Floyd-Warshall Algorithm - for finding shortest paths between every pair of vertices in a given edge weighted directed graph.
