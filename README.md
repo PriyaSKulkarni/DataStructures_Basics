@@ -1,7 +1,7 @@
 # Data Structures and Algorithms Basics
 CSE-5311-006-Design and Analysis of Agorithms
 
-Implemented:
+Implemented: 
 
 1. insertion sort
 
