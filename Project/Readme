@@ -1,1 +1,31 @@
 Project
+# Comparative Analysis of B-trees and T*-trees: Performance and Space Efficiency
+
+This repository contains research work that extensively compares two fundamental data structures: B-trees and T*-trees. The focus of this study is to analyze their performance and space efficiency, particularly emphasizing their applicability in managing large datasets. Through empirical examination and theoretical analysis, this research aims to provide insights into the relative strengths and weaknesses of these data structures.
+
+## Abstract
+
+The abstract summarizes the research objectives and methodology employed in this study. It highlights the importance of comparing B-trees and T*-trees, outlining their respective advantages and limitations.
+
+## Introduction
+
+The introduction provides context for the study, explaining the significance of data structures in algorithm design and computational tasks. It introduces B-trees and T*-trees, outlining their traditional uses and the motivation behind comparing them.
+
+## Overview of B-trees
+
+This section provides a detailed overview of B-trees, explaining their structure, functionality, and performance characteristics. It emphasizes the balanced nature of B-trees and their efficiency in managing ordered data.
+
+## Overview of T*-trees
+
+Here, T*-trees are introduced as an extension of B-trees, designed to minimize storage overhead and adapt to dynamic data distributions. The section explains the fusion process in T*-trees and their advantages over traditional B-trees in certain scenarios.
+
+## Conclusion
+
+The conclusion summarizes the findings of the comparative analysis, emphasizing the trade-offs between B-trees and T*-trees in terms of performance and space efficiency. It underscores the importance of understanding these trade-offs for selecting the most suitable data structure for specific applications.
+
+## References
+
+The references section lists the sources cited in the research, providing readers with additional resources for further exploration.
+
+---
+This README serves as a guide to understanding the research conducted on B-trees and T*-trees' comparative analysis. For detailed insights, refer to the complete research document.
